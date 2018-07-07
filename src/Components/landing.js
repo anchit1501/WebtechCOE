@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import '../App.css';
+import './landing.css';
 class Landing extends Component{
     render(){   return(
       <div className="ct" id="t1">
@@ -26,19 +26,17 @@ class Landing extends Component{
               <div className="page" id="p4">
                 <section className="icon fa fa-dribbble">
                   <span className="title">Dribbble</span>
-                  <p className="hint">
-                    <a href="https://dribbble.com/albertohartzet" target="_blank">More Content <span className="hint line-trough">More Content</span> Moreee......  ;-P</a>
-                  </p>
-                  <p className="hint">Made by Webtch COE <a href="http://www.dribbble.com/mrpeters" target="_blank">Mindtree</a></p>
+                  
+                  {/* <p className="hint">Made by Webtch COE <a href="http://www.dribbble.com/mrpeters" target="_blank">Mindtree</a></p> */}
                 </section>
               </div> 
               <div className="page" id="p5">
                 <section className="icon fa fa-plus-circle">
                   <span className="title">More</span>
-                  <p className="hint">
+                  {/* <p className="hint">
                     <span>For the love of CSS</span><br/>
                     <a href="https://codepen.io/hrtzt/details/pgXMYb/" target="_blank">check this pen "Pure CSS One page vertical navigation"</a>
-                  </p>
+                  </p> */}
                 </section>
               </div> 
             </div>

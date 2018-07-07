@@ -3,6 +3,7 @@ import ReactDom from 'react-dom';
 // import './index.css';
 // import * from 'jquery';
 import Landing from './Components/landing';
+// import Navbar from './Components/navbar';
 // import registerServiceWorker from './registerServiceWorker';
 
 
