@@ -28,7 +28,7 @@ html, body, .page {
   }
   
   /* #p1 { background: darkslateblue; } */
-  #p1 { background: rgba(0,0,0,0.5);}
+  #p1 { background: black;}
   #p2 { background: tomato; }
   #p3 { background: gold; }
   #p4 { background: deeppink; }
@@ -157,8 +157,6 @@ html, body, .page {
     bottom: 0;
     right: 10%;
     left: 0;
-    width: 270px;
-    height: 170px;
     margin: auto;
     text-align: center;
     font-size: 80px;
@@ -173,23 +171,27 @@ html, body, .page {
     -o-transition: all .5s cubic-bezier(.25, 1, .5, 1.25);
   }
   
-  .page#p1 .icon {
-    height: 220px;
-  }
+ 
   
-  .page#p1 .icon {
-    transform: translateX(10%) !important;
-  }
-  
-  #t2:target .page#p2 .icon,
-  #t3:target .page#p3 .icon,
-  #t4:target .page#p4 .icon,
-  #t5:target .page#p5 .icon {
-    transform: translateX(0) !important;
-    -webkit-transform: translateX(0) !important;
-    -moz-transform: translateX(0) !important;
-    -o-transform: translateX(0) !important;
-    transition-delay: 1s;
-  }
-  
-  
+  /* .card {
+    
+    transition: 0.3s;
+    font-size: 1rem;
+    margin-left: 10%;
+    background: #fff;
+    padding: 0%;
+    height: 100px;
+    width: 100px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(f,f,f,0.2);
+}
+
+/* .container {
+    padding: 2px 16px;
+} */ 
+.cardpos{
+    margin-top: 3%;
+    margin-left: -40%;
+}

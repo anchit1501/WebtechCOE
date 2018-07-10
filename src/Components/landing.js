@@ -1,12 +1,16 @@
 import React,{Component} from 'react';
 import './landing.css';
+import Card from './card';
+// import Navbar from './navbar';
+// import Back from '../back.jpg.jpg';
+
 class Landing extends Component{
     render(){   return(
-      <div className="ct" id="t1">
-      <div className="ct" id="t2">
-        <div className="ct" id="t3">
-          <div className="ct" id="t4">
-             <div className="ct" id="t5">
+      <div  id="t1">
+      <div id="t2">
+        <div id="t3">
+          <div  id="t4">
+             <div  id="t5">
               <ul id="menu">
                 <a href="#t1"><li className="icon fa fa-bolt" id="uno"></li></a>
                 <a href="#t2"><li className="icon fa fa-keyboard-o" id="dos"></li></a>
@@ -14,8 +18,10 @@ class Landing extends Component{
                 <a href="#t4"><li className="icon fa fa-dribbble" id="cuatro"></li></a>
                 <a href="#t5"><li className="icon fa fa-plus-circle" id="cinco"></li></a>
               </ul>
-              <div className="page" id="p1">
-                 <section className="icon fa fa-bolt"><span className="title">Bolt</span><span className="hint">Your Content Goes Here<br/> Some More Content That you Want To Add.....</span></section>  
+              <div className="page" id="p1">             
+              <section className="icon fa fa-keyboard-o"><span className="title">Type</span></section>
+
+               
               </div>
               <div className="page" id="p2">
                 <section className="icon fa fa-keyboard-o"><span className="title">Type</span></section>

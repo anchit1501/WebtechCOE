@@ -24,8 +24,9 @@ setTimeout(function(){
     }
     render(){
         
-        return(<nav class="top-right open">
-	
+        return(
+        
+        <nav class="top-right open">
         <a class="disc l2">
             <div>Audio</div>
         </a>
@@ -38,6 +39,7 @@ setTimeout(function(){
         <a class="disc l5 toggle">
             Let's Talk
         </a>
+
     </nav>);
     }
 }
