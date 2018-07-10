@@ -9,6 +9,7 @@ html, body, .page {
     -o-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);  
     color: #fff;
     overflow: hidden; 
+    background: black;
   }
   
   * {
@@ -20,36 +21,48 @@ html, body, .page {
   }
   
   #p1 {
-    left: 0;
+    left: 5%;
   }
   
   #p2, #p3, #p4, #p5 {
     left: 200%;
+    z-index: 10;
   }
   
   /* #p1 { background: darkslateblue; } */
-  #p1 { background: black;}
+  /* #p1 { background: grey;} */
+  #p1 {  background: linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)), url("https://farm3.staticflickr.com/2862/10936924134_24ce77ae37_b.jpg");
+    min-height: 100%;
+    background-size: cover;
+    background-position: 50% 0;}
   #p2 { background: tomato; }
   #p3 { background: gold; }
   #p4 { background: deeppink; }
   #p5 { background: rebeccapurple; }
   
+  /* #t1:target #p1, */
   #t2:target #p2,
   #t3:target #p3,
   #t4:target #p4,
   #t5:target #p5 {
-    transform: translateX(-190%);
-    -webkit-transform: translateX(-190%);
-    -moz-transform: translateX(-190%);
-    -o-transform: translateX(-190%);
+    transform: translateX(-195%);
+    -webkit-transform: translateX(-195%);
+    -moz-transform: translateX(-195%);
+    -o-transform: translateX(-195%);
     transition-delay: .4s !important;
   }
-  #t1:target #p1,
+
+  /* #t1:target #p1, */
   #t2:target #p1, 
   #t3:target #p1,
   #t4:target #p1,
   #t5:target #p1{
-    background: black;
+    /* background: grey; */
+    background: linear-gradient(rgba(0,0,0, 0.75), rgba(0,0,0, 0.85)), url("https://farm3.staticflickr.com/2862/10936924134_24ce77ae37_b.jpg");
+    
+    min-height: 100%;
+    background-size: cover;
+    background-position: 50% 0;
   }
   
   #t2:target #p1 .icon, 
@@ -102,7 +115,7 @@ html, body, .page {
     left: 0;
     margin: auto;
     height: 280px;
-    width: 10%;
+    width: 5%;
     padding: 0;
     text-align: center;
    }
@@ -119,7 +132,7 @@ html, body, .page {
     text-decoration: none;
   }
   
-  .title, .hint {
+  /* .title, .hint {
     display: block;
   }
   
@@ -130,10 +143,10 @@ html, body, .page {
   .hint {
     font-size: 13px;
   }
-  
-  #p4 .hint {
+   */
+  /* #p4 .hint {
     display: inherit !important;
-  }
+  } */
   /* 
   .hint a {
     color: yellow;
@@ -151,7 +164,7 @@ html, body, .page {
     text-decoration: line-through;
   } */
   
-  .page .icon {
+  /* .page .icon {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -169,7 +182,7 @@ html, body, .page {
     -webkit-transition: all .5s cubic-bezier(.25, 1, .5, 1.25);
     -moz-transition: all .5s cubic-bezier(.25, 1, .5, 1.25);
     -o-transition: all .5s cubic-bezier(.25, 1, .5, 1.25);
-  }
+  } */
   
  
   
