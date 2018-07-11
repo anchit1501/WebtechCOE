@@ -1,6 +1,6 @@
-html, body, .page {
-    width: 100%;
-    height: 100%;
+html, body {
+    width: 95vw;
+    /* height: 100vh; */
     margin: 0;
     padding: 0;
     transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
@@ -10,6 +10,20 @@ html, body, .page {
     color: #fff;
     overflow: hidden; 
     background: black;
+  }
+  .page{
+    width: 95vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
+    -webkit-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
+    -moz-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
+    -o-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);  
+    color: #fff;
+    overflow: hidden; 
+    
+    
   }
   
   * {
@@ -21,12 +35,15 @@ html, body, .page {
   }
   
   #p1 {
-    left: 5%;
+    left: 5vw;
   }
   
   #p2, #p3, #p4, #p5 {
-    left: 200%;
+    left:5vw;
     z-index: 10;
+    opacity:0;
+    
+
   }
   
   /* #p1 { background: darkslateblue; } */
@@ -45,12 +62,30 @@ html, body, .page {
   #t3:target #p3,
   #t4:target #p4,
   #t5:target #p5 {
+    
+    /* transition-delay: 0.4s !important;
     transform: translateX(-195%);
-    -webkit-transform: translateX(-195%);
-    -moz-transform: translateX(-195%);
-    -o-transform: translateX(-195%);
-    transition-delay: .4s !important;
+    -webkit-transform: translateX(-195%); */
+    animation: moveInRight .5s;
+    opacity: 1;
+
+    
   }
+ 
+  @keyframes moveInRight{
+    0%{
+      opacity: 0;
+       
+        transform: translateX(100vw);
+    }/*Initial state*/
+    
+    100%{
+        
+        opacity: 1;
+        transform: translateX(0vw);
+    }/*Final state*/
+}
+
 
   /* #t1:target #p1, */
   #t2:target #p1, 
@@ -114,8 +149,8 @@ html, body, .page {
     bottom: 0;
     left: 0;
     margin: auto;
-    height: 280px;
-    width: 5%;
+    /* height: 280px; */
+    width: 5vw;
     padding: 0;
     text-align: center;
    }

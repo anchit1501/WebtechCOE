@@ -5,14 +5,19 @@ import Card from './card';
 // import Back from '../back.jpg.jpg';
 
 class Landing extends Component{
-    render(){   return(
+
+  
+
+  
+    render(){   
+      return(
       <div  id="t1">
       <div id="t2">
         <div id="t3">
           <div  id="t4">
              <div  id="t5">
               <ul id="menu">
-                <a href="#t1"><li className="icon fa fa-bolt" id="uno"></li></a>
+                <a href="#t1"><li className="icon fa fa-bolt" id="uno" ></li></a>
                 <a href="#t2"><li className="icon fa fa-keyboard-o" id="dos"></li></a>
                 <a href="#t3"><li className="icon fa fa-rocket" id="tres"></li></a>
                 <a href="#t4"><li className="icon fa fa-dribbble" id="cuatro"></li></a>
