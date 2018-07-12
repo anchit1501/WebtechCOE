@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import './landing.css';
 import Card from './card';
+import Carousel from './Slider';
 // import Navbar from './navbar';
 // import Back from '../back.jpg.jpg';
 
@@ -33,13 +34,13 @@ class Landing extends Component{
                 
               </div>  
               <div className="page" id="p3">
-
+              
               </div>
               <div className="page" id="p4">
-                
+              
               </div> 
               <div className="page" id="p5">
-                
+              <Carousel />
               </div> 
             </div>
           </div>

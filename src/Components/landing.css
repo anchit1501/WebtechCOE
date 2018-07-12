@@ -40,7 +40,7 @@ html, body {
   
   #p2, #p3, #p4, #p5 {
     left:5vw;
-    z-index: 10;
+    z-index: 5;
     opacity:0;
     
 
@@ -55,8 +55,10 @@ html, body {
   #p2 { background: tomato; }
   #p3 { background: gold; }
   #p4 { background: deeppink; }
-  #p5 { background: rebeccapurple; }
-  
+  /* #p5 { background: rebeccapurple; } */
+  #p5{ background:  tomato;}
+
+
   /* #t1:target #p1, */
   #t2:target #p2,
   #t3:target #p3,
