@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import './landing.css';
 import Card from '../Card/card';
+import CardBot from '../Card/cardBot'
 // import ProjectCard from '../ProjectCard/ProjectCard';
 import Parallax from '../Parallax/Parallax';
 
@@ -34,7 +35,7 @@ class Landing extends Component{
                </div><div className="col-sm-2">
                <Card />
                </div><div className="col-sm-2">
-               <Card />
+               <CardBot />
                </div>
                  </div>
               
