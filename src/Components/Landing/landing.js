@@ -4,6 +4,7 @@ import Card from '../Card/card';
 import CardBot from '../Card/cardBot'
 // import ProjectCard from '../ProjectCard/ProjectCard';
 import Parallax from '../Parallax/Parallax';
+import Logo from '../Logo/Logo';
 
 
 class Landing extends Component{
@@ -25,7 +26,10 @@ class Landing extends Component{
                 <a href="#t4"><li className="icon fa fa-dribbble" id="cuatro"></li></a>
                 <a href="#t5"><li className="icon fa fa-plus-circle" id="cinco"></li></a>
               </ul>
-              <div className="page" id="p1">             
+              <div className="page" id="p1">    
+                     <div className='row'>
+                     <Logo />
+                     </div>
               <div className="row">
               <div className="col-sm-2">
                <Card />

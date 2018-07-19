@@ -1,0 +1,23 @@
+.logo-section{
+    margin-left: 5vw;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.logo{
+    width:240px;
+    height: 60px;
+}
+h1{font-size: 60px}
+
+hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    background-color: white;
+    margin:0;
+    margin-left: -20px;
+    padding: 0;
+    width: 100%;
+}
