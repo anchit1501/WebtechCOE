@@ -13,42 +13,42 @@ class Logo extends Component{
               </div>
               </div>
               <div className="row">
-              <div className="col-sm-1 logo-section">
+              <div className="col-sm-2 logo-section">
               <div className="row">
               <h1><CountUp start={0} end={10} duration={3} />
               </h1><h1>+</h1>
               </div>
-              <hr/>
+              <hr1/>
               <div className="row" style={{"paddingTop":"15px"}}>
               <h6>Years of Web<br />Technologies<br />Experience</h6>
               </div>              
               </div>
 
-              <div className="col-sm-1 logo-section">
+              <div className="col-sm-2 logo-section">
               <div className="row">
               <h1><CountUp start={0} end={200} duration={3} /></h1><h1>+</h1>
               </div>
-              <hr/>
+              <hr1/>
               <div className="row" style={{"paddingTop":"15px"}}>
               <h6>Projects<br />Delivered</h6>
               </div>              
               </div>
               
 
-              <div className="col-sm-1 logo-section">
+              <div className="col-sm-2 logo-section">
               <div className="row">
               <h1><CountUp start={0} end={325} duration={3} /></h1><h1>+</h1>
               </div>
-              <hr/>
+              <hr1/>
               <div className="row" style={{"paddingTop":"15px"}}>
               <h6>Core Web<br />Technologies<br />Team Members</h6>
               </div>              
               </div>
-              <div className="col-sm-1 logo-section">
+              <div className="col-sm-2 logo-section">
               <div className="row">
               <h1><CountUp start={0} end={40} duration={3} /></h1><h1>+</h1>
               </div>
-              <hr/>
+              <hr1/>
               <div className="row" style={{"paddingTop":"15px"}}>
               <h6>Active<br />Customers</h6>
               </div>              

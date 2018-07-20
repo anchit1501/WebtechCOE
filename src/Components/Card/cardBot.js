@@ -1,6 +1,6 @@
 import  React,{Component} from 'react';
 import './card.css';
-import botbg from '../../images/chatbot.png';
+
 
 class CardBot extends Component{
 
@@ -11,7 +11,7 @@ class CardBot extends Component{
 <div class="box gallery">
 	<div class="card1">
     <div class="background">
-    <img src={botbg} className="portrait" />
+    <img src={this.props.back} className="portrait" />
     </div>  
     
     

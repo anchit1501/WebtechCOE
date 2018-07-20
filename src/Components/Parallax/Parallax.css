@@ -100,8 +100,8 @@ body {
 
 .blog-card {
   margin-top: 100px;
-  width: 600px;
-  height: 400px;
+  width: 80%;
+  height: 110%;
   position: absolute;
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
@@ -110,14 +110,16 @@ body {
 }
 .blog-card.spring-fever {
   background: #fff;;
-  width:600px;
-  height: 400px;
+  width: 80%;
+  height: 100%;
+  background-image: url('../../images/Knowledgehub.PNG');
+  background-size: 100%;
 }
 .blog-card .color-overlay {
   /* Rectangle 11: */
   background: rgba(84, 104, 110, 0.4);
-  width: 600px;
-  height: 400px;
+  width: 100%;
+  height: 100%;
   position: absolute;
   z-index: 10;
   top: 0;
@@ -142,18 +144,9 @@ body {
   bottom: 120px;
 }
 .blog-card:hover .color-overlay {
-  background: rgba(84, 104, 110, 0.8);
+  background: rgba(255, 0, 0, 0.7);
 }
 
-.title-content {
-  text-align: center;
-  margin: 70px 0 0 0;
-  position: absolute;
-  z-index: 20;
-  width: 100%;
-  top: 0;
-  left: 0;
-}
 
 h3 {
   font-size: 20px;
@@ -172,15 +165,7 @@ hr {
   background: #000;
 }
 
-.intro {
-  width: 170px;
-  margin: 0 auto;
-  color: #000;
-  font-family: 'Droid Serif', serif;
-  font-size: 13px;
-  font-style: italic;
-  line-height: 18px;
-}
+
 
 .card-info {
   width: 100%;
@@ -224,3 +209,14 @@ hr {
 .utility-list li.date {
   background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1765/icon-calendar.svg) no-repeat 0 0.1em;
 } */
+
+.project-name{
+  margin-top: 100px;
+  margin-left: 50px;
+  font-size:80px;
+  padding-top: 150px;
+  vertical-align: center;
+  
+}
+
+  

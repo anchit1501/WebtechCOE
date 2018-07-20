@@ -23,29 +23,7 @@ body{
     height: 240px;
   }
   
-  .gallery .column{
-    width: 20%;
-    float: left;
-  }
   
-  .gallery .column.col1{
-    background-color: #325C7D;
-  }
-  
-  .gallery .column.col2{
-    background-color: #6C5B7B;
-  }
-  
-  .gallery .column.col3{
-    background-color: #C26D85;
-  }
-  
-  .gallery .column.col4{
-    background-color: #EB7180;
-  }
-  .gallery .column.col5{
-    background-color: #F5B195;
-  }
   
   .gallery .overlay{
       position: absolute;
